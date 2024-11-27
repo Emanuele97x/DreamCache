@@ -44,8 +44,24 @@ function make_site(paper) {
         node.innerHTML += ", "
     })
     get("affiliation-list").appendChild(affiliations_node(paper.affiliations));
-    get("footnote-list").appendChild(footnote_node(paper.footnotes));
+    //get("footnote-list").appendChild(footnote_node(paper.footnotes));
     get("abstract").textContent = paper.abstract;
+
+    // Add the video under the abstract if it exists
+    if (paper.video) {
+        var videoDiv = get("video");
+        var video = document.createElement("video");
+        video.width = 640;
+        video.height = 640;
+        video.controls = true;
+
+        var source = document.createElement("source");
+        source.src = paper.video;
+        source.type = "video/mp4";
+
+        video.appendChild(source);
+        videoDiv.appendChild(video);
+    }
 
     // Populate the button list with the URLs from the paper
     buttonlist = get("button-list");
