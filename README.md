@@ -73,4 +73,4 @@ To run a gradio demo set main parameters in gradio_app.py and then run `python g
 
 
 ## 💐 Acknowledgements
-This code repository is based on several prior works: [Textual Inversion](https://github.com/rinongal/textual_inversion) [ViCo](https://github.com/haoosz/ViCo/tree/main) [Kosmos-G] (https://github.com/xichenpan/Kosmos-G)
+This code repository is based on several prior works: [Textual Inversion](https://github.com/rinongal/textual_inversion) [ViCo](https://github.com/haoosz/ViCo/tree/main) [Kosmos-G](https://github.com/xichenpan/Kosmos-G)
