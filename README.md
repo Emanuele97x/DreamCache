@@ -1,5 +1,5 @@
 # DreamCache
-DreamCache: Finetuning-Free Lightweight Personalized Image Generation via Feature Caching
+DreamCache: Finetuning-Free Lightweight Personalized Image Generation via Feature Caching (CVPR'25)
 
 <div align="center">
 <img src="docs/assets/plot_dreambench-1.png" alt="Figure 2" height="500">
