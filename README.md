@@ -22,7 +22,7 @@ Download the pretained [Stable Diffusion 2.1](https://huggingface.co/stabilityai
 
 Download the [pretrained adapter](https://drive.google.com/drive/folders/11qgm_oXMgHg4jiD7Q2S0rWeIfHhTPg0K?usp=sharing)
 
-Download the training dataset: (available soon!)
+Download the training dataset: (available soon!) Another alternative that model pose variation is the [Subject200K dataset](https://github.com/Yuanshi9815/Subjects200K)
 
 Download DreamBench:
 ```
